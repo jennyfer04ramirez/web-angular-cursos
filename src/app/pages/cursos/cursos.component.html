@@ -1,0 +1,8 @@
+<section id="cursos">
+    <h3>Lista de Cursos</h3>
+    <div (click)="mostrarDetallesCurso(curso)" *ngFor="let curso of cursos; let i = index" class="grid-item"
+        [ngStyle]="{'background-image': 'url(' + curso.imagenUrl + ')'}">
+        <h4><a>{{ curso.nombre }}</a></h4>
+        <button (click)="eliminarCurso(i)">Eliminar</button>
+    </div>
+</section>

@@ -1,0 +1,12 @@
+<div class="modal-header" [ngStyle]="{'background-image': 'url(' + data.imagenUrl + ')'}">
+    <h2>{{ data.nombre }}</h2>
+    <button mat-icon-button (click)="onClose()">
+        X
+    </button>
+</div>
+<div class="modal-content">
+    <p><strong>Instructor:</strong> {{ data.instructor }}</p>
+    <p><strong>Fecha de Inicio:</strong> {{ data.fechaInicio }}</p>
+    <p><strong>Duración:</strong> {{ data.duracion }} semanas</p>
+    <p><strong>Descripción:</strong> {{ data.descripcion }}</p>
+</div>
