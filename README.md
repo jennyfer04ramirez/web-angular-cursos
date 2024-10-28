@@ -25,3 +25,19 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+Veras en este archivo vale todo asi que de aqui puedes guiarte todo para hacer la prueba de mañana lunes ok, recuerda aquio los codigos jsjsjs,
+git config user.name "jennyfer04ramirez"
+git config user.email "no me acuerdo tu correo"
+git config credential.username "jennyfer04ramirez"
+esto todo para la configuracion del git, creo que era todo
+
+ng new (nombreproyecto)
+de ahi creabas lo que era el repo en el git que ya tenias que haber iniciado sesion
+y ponias ya los codigos que te aparecen en el github, los del segundo cuadrado, no del primero,
+de ahi ya ibas creando los componentes con el
+ng generate component components/nombredelcomponente
+y si vas a crear un servicio para el ingreso y toda la gestion de lo que nos ponga
+ng generate service services/nombredelservicoi
+
+!!un cosa importante es que ni bien abras veas que la carpeta de assets este creada, (bueno toma en cuenta que esto solo te importa si vas a meterle imagenes, obviamente esto ya has cuando tengas tiempo libre, lo de dejarle bonito, caulquier cosa me puedes de alguna manera hablar por el avac, )
